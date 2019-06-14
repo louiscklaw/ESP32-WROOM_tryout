@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:AMS1117-cache
+LIBS:RFM95_tryout-cache
 EELAYER 29 0
 EELAYER END
 $Descr User 8500 5500
@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L taobao-transistor:SS9013_J3 Q?
+L taobao-transistor:SS9013_J3 Q1
 U 1 1 5D061FA8
 P 3100 1550
-F 0 "Q?" H 3291 1596 50  0000 L CNN
+F 0 "Q1" H 3291 1596 50  0000 L CNN
 F 1 "SS9013_J3" H 3291 1505 50  0000 L CNN
 F 2 "footprint-lib:9013,J3,SOT23" H 3300 1475 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3100 1550 50  0001 L CNN
@@ -26,10 +26,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3100 1550 50  000
 	-1   0    0    -1  
 $EndComp
 $Comp
-L taobao-transistor:SS9013_J3 Q?
+L taobao-transistor:SS9013_J3 Q2
 U 1 1 5D062695
 P 3100 2350
-F 0 "Q?" H 3291 2304 50  0000 L CNN
+F 0 "Q2" H 3291 2304 50  0000 L CNN
 F 1 "SS9013_J3" H 3291 2395 50  0000 L CNN
 F 2 "footprint-lib:9013,J3,SOT23" H 3300 2275 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3100 2350 50  0001 L CNN
@@ -37,10 +37,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3100 2350 50  000
 	-1   0    0    1   
 $EndComp
 $Comp
-L taobao-r:R103,0603 R?
+L taobao-r:R103,0603 R4
 U 1 1 5D062C5A
 P 3900 2350
-F 0 "R?" V 3704 2350 50  0000 C CNN
+F 0 "R4" V 3704 2350 50  0000 C CNN
 F 1 "R103,0603" V 3795 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3900 2350 50  0001 C CNN
 F 3 "~" H 3900 2350 50  0001 C CNN
@@ -48,10 +48,10 @@ F 3 "~" H 3900 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L taobao-r:R103,0603 R?
+L taobao-r:R103,0603 R3
 U 1 1 5D062EF1
 P 3900 1550
-F 0 "R?" V 3704 1550 50  0000 C CNN
+F 0 "R3" V 3704 1550 50  0000 C CNN
 F 1 "R103,0603" V 3795 1550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3900 1550 50  0001 C CNN
 F 3 "~" H 3900 1550 50  0001 C CNN
