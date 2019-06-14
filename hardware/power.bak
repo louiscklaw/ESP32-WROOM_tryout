@@ -1310,10 +1310,10 @@ B0 1B 92 0C 00 00 D8 0D 49 06 00 00 EC 86 24 03 00 00 76 43 92 01 00 00 BB 21 C9
 EndData
 $EndBitmap
 $Comp
-L my_solder_jumper:SolderJumper_2_Open_round JP?
+L my_solder_jumper:SolderJumper_2_Open_round JP2
 U 1 1 5D042A4E
 P 2250 1650
-F 0 "JP?" V 2204 1718 50  0000 L CNN
+F 0 "JP2" V 2204 1718 50  0000 L CNN
 F 1 "5V_EN" V 2295 1718 50  0000 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 2250 1650 50  0001 C CNN
 F 3 "~" H 2250 1650 50  0001 C CNN
@@ -1321,10 +1321,10 @@ F 3 "~" H 2250 1650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L my_solder_jumper:SolderJumper_2_Open_round JP?
+L my_solder_jumper:SolderJumper_2_Open_round JP3
 U 1 1 5D042FDF
 P 3700 1650
-F 0 "JP?" V 3654 1718 50  0000 L CNN
+F 0 "JP3" V 3654 1718 50  0000 L CNN
 F 1 "3V3_EN" V 3745 1718 50  0000 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3700 1650 50  0001 C CNN
 F 3 "~" H 3700 1650 50  0001 C CNN
