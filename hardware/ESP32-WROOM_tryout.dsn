@@ -97,7 +97,7 @@
       (place J3 114000 -51000 front 180 (PN HEADER2))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical
-      (place J2 110000 -46000 front 180 (PN HEADER1))
+      (place J2 105000 -46000 front 180 (PN HEADER1))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
       (place J1 93000 -77000 front 180 (PN ANT))
