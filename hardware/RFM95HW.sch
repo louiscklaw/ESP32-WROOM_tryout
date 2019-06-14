@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:RFM95_tryout-cache
 EELAYER 29 0
 EELAYER END
 $Descr User 8500 5500
@@ -138,7 +137,7 @@ L my_solder_jumper:SolderJumper_2_Open_round JP1
 U 1 1 5D05B967
 P 3950 850
 F 0 "JP1" H 3950 1055 50  0000 C CNN
-F 1 "SolderJumper_2_Open_round" H 3950 964 50  0000 C CNN
+F 1 "ANT_EN" H 3950 964 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3950 850 50  0001 C CNN
 F 3 "~" H 3950 850 50  0001 C CNN
 	1    3950 850 
@@ -162,8 +161,8 @@ L Connector:Conn_01x02_Female J1
 U 1 1 5D05CA2F
 P 3050 850
 F 0 "J1" H 2942 1035 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 2942 944 50  0000 C CNN
-F 2 "" H 3050 850 50  0001 C CNN
+F 1 "ANT" H 2942 944 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3050 850 50  0001 C CNN
 F 3 "~" H 3050 850 50  0001 C CNN
 	1    3050 850 
 	-1   0    0    -1  

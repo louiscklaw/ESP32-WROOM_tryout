@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:RFM95_tryout-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -437,10 +436,10 @@ Wire Wire Line
 	4500 5550 5400 5550
 Text Label 5200 5550 2    50   ~ 0
 RFM_CS
+Entry Wire Line
+	5400 5550 5500 5650
 Wire Bus Line
 	6700 1200 6700 7550
 Wire Bus Line
 	5500 1500 5500 7550
-Entry Wire Line
-	5400 5550 5500 5650
 $EndSCHEMATC

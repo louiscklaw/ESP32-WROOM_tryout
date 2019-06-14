@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:RFM95_tryout-cache
 EELAYER 29 0
 EELAYER END
 $Descr User 8500 5500
