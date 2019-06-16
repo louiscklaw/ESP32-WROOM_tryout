@@ -36,22 +36,6 @@ F 3 "" H 1550 1400 50  0001 C CNN
 	1    1550 1900
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	3250 1800 2600 1800
-Wire Wire Line
-	2600 1800 2600 1900
-Wire Wire Line
-	2600 1900 1950 1900
-Wire Wire Line
-	1950 1800 2500 1800
-Wire Wire Line
-	2500 1800 2500 1850
-Wire Wire Line
-	2500 1850 2700 1850
-Wire Wire Line
-	2700 1850 2700 1900
-Wire Wire Line
-	2700 1900 3250 1900
 $Comp
 L power:GND #PWR0118
 U 1 1 5D06B994
@@ -1574,4 +1558,20 @@ F 3 "" H 2150 1350 50  0001 C CNN
 	1    2150 1350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2700 1900 3250 1900
+Wire Wire Line
+	1950 1800 2500 1800
+Wire Wire Line
+	3250 1800 2600 1800
+Wire Wire Line
+	2700 1850 2700 1900
+Wire Wire Line
+	2500 1800 2500 1850
+Wire Wire Line
+	2600 1900 1950 1900
+Wire Wire Line
+	2600 1800 2600 1900
+Wire Wire Line
+	2500 1850 2700 1850
 $EndSCHEMATC

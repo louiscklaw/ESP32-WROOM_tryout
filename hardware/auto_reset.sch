@@ -15,28 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L taobao-transistor:SS9013_J3 Q1
-U 1 1 5D061FA8
-P 3100 1550
-F 0 "Q1" H 3291 1596 50  0000 L CNN
-F 1 "SS9013_J3" H 3291 1505 50  0000 L CNN
-F 2 "footprint-lib:9013,J3,SOT23" H 3300 1475 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3100 1550 50  0001 L CNN
-	1    3100 1550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L taobao-transistor:SS9013_J3 Q2
-U 1 1 5D062695
-P 3100 2350
-F 0 "Q2" H 3291 2304 50  0000 L CNN
-F 1 "SS9013_J3" H 3291 2395 50  0000 L CNN
-F 2 "footprint-lib:9013,J3,SOT23" H 3300 2275 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3100 2350 50  0001 L CNN
-	1    3100 2350
-	-1   0    0    1   
-$EndComp
-$Comp
 L taobao-r:R103,0603 R4
 U 1 1 5D062C5A
 P 3900 2350
@@ -2118,4 +2096,26 @@ DA DC 00 00 00 80 A8 20 B8 01 00 00 00 51 41 70 03 00 00 00 A2 82 E0 06 00 00 00
 15 04 37 00 00 00 20 2A FF 05 6F AA B9 65 3F 2C AD B9 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L taobao-transistor:2N3904(1AM) Q2
+U 1 1 5D06D02A
+P 3100 2350
+F 0 "Q2" H 3300 2300 50  0000 L CNN
+F 1 "2N3904(1AM)" H 3300 2350 50  0000 L CNN
+F 2 "footprint-lib:MBT3904_1AM_SOT" H 3300 2275 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/MMBT3904.pdf" H 3100 2350 50  0001 L CNN
+	1    3100 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L taobao-transistor:2N3904(1AM) Q1
+U 1 1 5D06DF19
+P 3100 1550
+F 0 "Q1" H 3300 1600 50  0000 L CNN
+F 1 "2N3904(1AM)" H 3300 1550 50  0000 L CNN
+F 2 "footprint-lib:MBT3904_1AM_SOT" H 3300 1475 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/MMBT3904.pdf" H 3100 1550 50  0001 L CNN
+	1    3100 1550
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

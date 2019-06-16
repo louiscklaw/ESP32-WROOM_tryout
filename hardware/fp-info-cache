@@ -1,11 +1,4 @@
-19585743933113564
-2EDGK
-2EDGR-2
-2EDGR-2
-2EDGR-2
-0
-2
-2
+19594967159585068
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -5921,13 +5914,6 @@ C Rect series Radial pin pitch 37.50mm  length 41.5mm width 40mm Capacitor
 0
 2
 2
-casing
-test1
-
-
-0
-0
-0
 Connector
 Banana_Jack_1Pin
 Single banana socket, footprint - 6mm drill
@@ -42062,13 +42048,6 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
-DG_KF128
-DG_KF128-2
-DG_KF128-2
-DG_KF128-2
-0
-2
-2
 Diode_SMD
 Diode_Bridge_Diotec_ABS
 SMD diode bridge ABS (Diotec), see https://diotec.com/tl_files/diotec/files/pdf/datasheets/abs2.pdf
@@ -44090,7 +44069,7 @@ AMS1117_SOT-223
 module CMS SOT223 4 pins
 CMS SOT
 0
-8
+10
 3
 footprint-lib
 AN9520
@@ -44197,6 +44176,13 @@ CH340C
 0
 16
 16
+footprint-lib
+CH340T_SSOP-20
+CH340T_SSOP-20
+CH340T
+0
+20
+20
 footprint-lib
 cherry_mx_without_led_100H
 cherry mx keyboard key button
@@ -44307,7 +44293,7 @@ ESP-WROOM-32NARROW
 
 ESP-WROOM-32NARROW
 0
-53
+69
 39
 footprint-lib
 ESP-WROOM-32_MODULE
@@ -44625,12 +44611,33 @@ inductor Wuerth hci smd
 2
 2
 footprint-lib
+MBT3904_1AM_SOT
+SOT-23, Standard
+MBT3904_1AM_SOT
+0
+3
+3
+footprint-lib
 MC-306
 <b>MC-306 CRYSTAL UNIT</b><p>Source: MC-306_405_406_E07X.PDF
 
 0
 4
 4
+footprint-lib
+MCP73833_DFN
+Plastic DFN, 10 pins, 3x3, Linear Technology
+MCP73833_DFN
+0
+12
+11
+footprint-lib
+MCP73833_MSOP10
+MSOP, 10 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/3805fg.pdf#page=18), generated with kicad-footprint-generator ipc_gullwing_generator.py
+MCP73833_MSOP10
+0
+20
+11
 footprint-lib
 MCP73837_MSOP10
 MSOP, 10 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/3805fg.pdf#page=18), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -44805,7 +44812,7 @@ Miniature Crystal Clock Oscillator Abracon ASE series, http://www.abracon.com/Os
 SMD SMT crystal oscillator hand-soldering 3225
 0
 4
-4
+3
 footprint-lib
 osc_debug
 Crystal, HC-49/SMD, 3225

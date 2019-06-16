@@ -76,13 +76,13 @@ $EndComp
 $Comp
 L taobao-rpack:RN_473,0603 RN1
 U 1 1 5D08A1A9
-P 5450 1600
-F 0 "RN1" H 5638 1646 50  0000 L CNN
-F 1 "RN_473,0603" H 5638 1555 50  0000 L CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 5725 1600 50  0001 C CNN
-F 3 "~" H 5450 1600 50  0001 C CNN
-	1    5450 1600
-	1    0    0    -1  
+P 5350 1600
+F 0 "RN1" H 5538 1646 50  0000 L CNN
+F 1 "RN_473,0603" H 5538 1555 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 5625 1600 50  0001 C CNN
+F 3 "~" H 5350 1600 50  0001 C CNN
+	1    5350 1600
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5150 1150 5150 1250
@@ -106,13 +106,9 @@ Connection ~ 5250 1250
 Wire Wire Line
 	5250 1250 5350 1250
 Wire Wire Line
-	5250 2000 5250 1800
+	5450 2000 5450 1800
 Wire Wire Line
-	5000 2000 5250 2000
-Wire Wire Line
-	5350 1800 5350 2100
-Wire Wire Line
-	5350 2100 5000 2100
+	5550 1800 5550 2100
 $Comp
 L power:+3V3 #PWR0114
 U 1 1 5D0902E5
@@ -128,16 +124,10 @@ Wire Wire Line
 	5450 2500 5450 2200
 Wire Wire Line
 	5450 2200 5000 2200
-Text HLabel 5700 2000 2    50   Input ~ 0
-SCL
 Text HLabel 5700 2100 2    50   Input ~ 0
 SDA
 Wire Wire Line
-	5250 2000 5700 2000
-Connection ~ 5250 2000
-Wire Wire Line
-	5700 2100 5350 2100
-Connection ~ 5350 2100
+	5700 2100 5550 2100
 Text HLabel 2550 1300 2    50   Input ~ 0
 RESET
 Text HLabel 2550 1400 2    50   Input ~ 0
@@ -176,9 +166,9 @@ Text HLabel 4100 1750 2    50   Input ~ 0
 IO5
 Text HLabel 4100 1850 2    50   Input ~ 0
 IO4
-Text HLabel 4100 1950 2    50   Input ~ 0
-SCL
 Text HLabel 4100 2050 2    50   Input ~ 0
+SCL
+Text HLabel 4100 1950 2    50   Input ~ 0
 SDA
 Wire Wire Line
 	3600 1250 4100 1250
@@ -2024,6 +2014,16 @@ C5 C5 43 EE 30 31 31 31 24 24 C4 60 30 D8 B1 68 00 00 00 B0 19 65 32 99 1C 5D 03
 82 
 EndData
 $EndBitmap
-NoConn ~ 5450 1800
-NoConn ~ 5550 1800
+NoConn ~ 5250 1800
+NoConn ~ 5350 1800
+Text HLabel 5700 2000 2    50   Input ~ 0
+SCL
+Connection ~ 5450 2000
+Wire Wire Line
+	5450 2000 5700 2000
+Connection ~ 5550 2100
+Wire Wire Line
+	5000 2000 5450 2000
+Wire Wire Line
+	5000 2100 5550 2100
 $EndSCHEMATC
