@@ -1,10 +1,11 @@
 EESchema Schematic File Version 4
 LIBS:ESP32-WROOM_tryout-cache
+LIBS:SHT30_tryout-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -439,8 +440,28 @@ Text Label 5200 5550 2    50   ~ 0
 RFM_CS
 Entry Wire Line
 	5400 5550 5500 5650
+$Sheet
+S 7150 5750 950  400 
+U 5D09E40C
+F0 "SHT3X" 50
+F1 "SHT3X.sch" 50
+F2 "SCL" I L 7150 5900 50 
+F3 "SDA" I L 7150 6000 50 
+$EndSheet
+Entry Wire Line
+	6700 6000 6800 5900
+Entry Wire Line
+	6700 6100 6800 6000
+Wire Wire Line
+	6800 5900 7150 5900
 Wire Bus Line
 	6700 1200 6700 7550
 Wire Bus Line
 	5500 1500 5500 7550
+Wire Wire Line
+	6800 6000 7150 6000
+Text Label 6900 5900 0    50   ~ 0
+SCL
+Text Label 6900 6000 0    50   ~ 0
+SDA
 $EndSCHEMATC

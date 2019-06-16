@@ -1,10 +1,11 @@
 EESchema Schematic File Version 4
 LIBS:ESP32-WROOM_tryout-cache
+LIBS:SHT30_tryout-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 8 9
 Title ""
 Date ""
 Rev ""
