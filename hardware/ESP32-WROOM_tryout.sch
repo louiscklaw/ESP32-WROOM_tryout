@@ -454,14 +454,58 @@ Entry Wire Line
 	6700 6100 6800 6000
 Wire Wire Line
 	6800 5900 7150 5900
-Wire Bus Line
-	6700 1200 6700 7550
-Wire Bus Line
-	5500 1500 5500 7550
 Wire Wire Line
 	6800 6000 7150 6000
 Text Label 6900 5900 0    50   ~ 0
 SCL
 Text Label 6900 6000 0    50   ~ 0
 SDA
+$Comp
+L taobao-mounting-hole:MOUNT_M2.5 H1
+U 1 1 5D0AF719
+P 10450 5550
+F 0 "H1" H 10550 5600 50  0000 L CNN
+F 1 "MOUNT_M2.5" H 10550 5550 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 10450 5550 50  0001 C CNN
+F 3 "~" H 10450 5550 50  0001 C CNN
+	1    10450 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-mounting-hole:MOUNT_M2.5 H2
+U 1 1 5D0B0227
+P 10450 5750
+F 0 "H2" H 10550 5800 50  0000 L CNN
+F 1 "MOUNT_M2.5" H 10550 5750 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 10450 5750 50  0001 C CNN
+F 3 "~" H 10450 5750 50  0001 C CNN
+	1    10450 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-mounting-hole:MOUNT_M2.5 H3
+U 1 1 5D0B26A4
+P 10450 5950
+F 0 "H3" H 10550 6000 50  0000 L CNN
+F 1 "MOUNT_M2.5" H 10550 5950 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 10450 5950 50  0001 C CNN
+F 3 "~" H 10450 5950 50  0001 C CNN
+	1    10450 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-mounting-hole:MOUNT_M2.5 H4
+U 1 1 5D0B26AE
+P 10450 6150
+F 0 "H4" H 10550 6200 50  0000 L CNN
+F 1 "MOUNT_M2.5" H 10550 6150 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 10450 6150 50  0001 C CNN
+F 3 "~" H 10450 6150 50  0001 C CNN
+	1    10450 6150
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	6700 1200 6700 7550
+Wire Bus Line
+	5500 1500 5500 7550
 $EndSCHEMATC

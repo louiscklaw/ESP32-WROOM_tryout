@@ -1,10 +1,11 @@
 EESchema Schematic File Version 4
 LIBS:ESP32-WROOM_tryout-cache
+LIBS:SHT30_tryout-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -439,6 +440,70 @@ Text Label 5200 5550 2    50   ~ 0
 RFM_CS
 Entry Wire Line
 	5400 5550 5500 5650
+$Sheet
+S 7150 5750 950  400 
+U 5D09E40C
+F0 "SHT3X" 50
+F1 "SHT3X.sch" 50
+F2 "SCL" I L 7150 5900 50 
+F3 "SDA" I L 7150 6000 50 
+$EndSheet
+Entry Wire Line
+	6700 6000 6800 5900
+Entry Wire Line
+	6700 6100 6800 6000
+Wire Wire Line
+	6800 5900 7150 5900
+Wire Wire Line
+	6800 6000 7150 6000
+Text Label 6900 5900 0    50   ~ 0
+SCL
+Text Label 6900 6000 0    50   ~ 0
+SDA
+$Comp
+L taobao-mounting-hole:MOUNT_M2.5 H?
+U 1 1 5D0AF719
+P 10450 5550
+F 0 "H?" H 10550 5600 50  0000 L CNN
+F 1 "MOUNT_M2.5" H 10550 5550 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 10450 5550 50  0001 C CNN
+F 3 "~" H 10450 5550 50  0001 C CNN
+	1    10450 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-mounting-hole:MOUNT_M2.5 H?
+U 1 1 5D0B0227
+P 10450 5750
+F 0 "H?" H 10550 5800 50  0000 L CNN
+F 1 "MOUNT_M2.5" H 10550 5750 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 10450 5750 50  0001 C CNN
+F 3 "~" H 10450 5750 50  0001 C CNN
+	1    10450 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-mounting-hole:MOUNT_M2.5 H?
+U 1 1 5D0B26A4
+P 10450 5950
+F 0 "H?" H 10550 6000 50  0000 L CNN
+F 1 "MOUNT_M2.5" H 10550 5950 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 10450 5950 50  0001 C CNN
+F 3 "~" H 10450 5950 50  0001 C CNN
+	1    10450 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-mounting-hole:MOUNT_M2.5 H?
+U 1 1 5D0B26AE
+P 10450 6150
+F 0 "H?" H 10550 6200 50  0000 L CNN
+F 1 "MOUNT_M2.5" H 10550 6150 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 10450 6150 50  0001 C CNN
+F 3 "~" H 10450 6150 50  0001 C CNN
+	1    10450 6150
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	6700 1200 6700 7550
 Wire Bus Line
