@@ -1,0 +1,17 @@
+EESchema Schematic File Version 4
+LIBS:ESP32-WROOM_tryout-cache
+EELAYER 29 0
+EELAYER END
+$Descr User 8500 5500
+encoding utf-8
+Sheet 10 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$EndSCHEMATC
