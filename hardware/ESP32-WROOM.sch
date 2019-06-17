@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:ESP32-WROOM_tryout-cache
+LIBS:ws2812-stm32-interface-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268

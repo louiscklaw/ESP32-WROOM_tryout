@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:ESP32-WROOM_tryout-cache
+LIBS:ws2812-stm32-interface-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -503,14 +504,21 @@ F 3 "~" H 10450 6150 50  0001 C CNN
 	1    10450 6150
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 7500 6500 950  400 
+U 5D07D4E7
+F0 "WS2812" 50
+F1 "WS2812.sch" 50
+F2 "WS2812_DIN" I L 7500 6700 50 
+$EndSheet
+Entry Wire Line
+	6700 6800 6800 6700
+Wire Wire Line
+	6800 6700 7500 6700
+Text Label 6900 6700 0    50   ~ 0
+WS2812_DIN
 Wire Bus Line
 	6700 1200 6700 7550
 Wire Bus Line
 	5500 1500 5500 7550
-$Sheet
-S 7150 6500 950  400 
-U 5D07D4E7
-F0 "WS2812" 50
-F1 "WS2812.sch" 50
-$EndSheet
 $EndSCHEMATC
