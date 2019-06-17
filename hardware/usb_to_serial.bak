@@ -1,11 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:ESP32-WROOM_tryout-cache
-LIBS:SHT30_tryout-cache
 EELAYER 29 0
 EELAYER END
 $Descr User 8500 5500
 encoding utf-8
-Sheet 5 9
+Sheet 5 10
 Title ""
 Date ""
 Rev ""
@@ -1575,4 +1574,38 @@ Wire Wire Line
 	2600 1800 2600 1900
 Wire Wire Line
 	2500 1850 2700 1850
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 5D0806BE
+P 6300 1150
+F 0 "J?" H 6328 1176 50  0000 L CNN
+F 1 "TTL_DEBUG" H 6328 1085 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 6300 1150 50  0001 C CNN
+F 3 "~" H 6300 1150 50  0001 C CNN
+	1    6300 1150
+	1    0    0    -1  
+$EndComp
+Text HLabel 5950 1250 0    50   Input ~ 0
+RXI
+Text HLabel 5950 1150 0    50   Input ~ 0
+TXO
+$Comp
+L power:GND #PWR?
+U 1 1 5D082098
+P 5900 850
+F 0 "#PWR?" H 5900 600 50  0001 C CNN
+F 1 "GND" H 5905 677 50  0000 C CNN
+F 2 "" H 5900 850 50  0001 C CNN
+F 3 "" H 5900 850 50  0001 C CNN
+	1    5900 850 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5900 850  5900 1050
+Wire Wire Line
+	5900 1050 6100 1050
+Wire Wire Line
+	5950 1150 6100 1150
+Wire Wire Line
+	5950 1250 6100 1250
 $EndSCHEMATC

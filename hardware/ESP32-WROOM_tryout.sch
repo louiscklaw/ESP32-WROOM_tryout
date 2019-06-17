@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -507,4 +507,10 @@ Wire Bus Line
 	6700 1200 6700 7550
 Wire Bus Line
 	5500 1500 5500 7550
+$Sheet
+S 7150 6500 950  400 
+U 5D07D4E7
+F0 "WS2812" 50
+F1 "WS2812.sch" 50
+$EndSheet
 $EndSCHEMATC
